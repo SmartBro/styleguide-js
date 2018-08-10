@@ -1,4 +1,49 @@
 {
     "name": "@smartbro/styleguide-js",
-    "version": "0.0.1"
+    "description": "ESLint Shareable Config used by SmartBro",
+    "version": "0.0.2",
+    "author": {
+        "name": "Oleh Horitsyn",
+        "email": "smartbrostudio@gmail.com",
+        "url": "https://www.upwork.com/fl/oleggoritsyn"
+    },
+    "keywords": [
+      "JavaScript Standard Style",
+      "check",
+      "checker",
+      "code",
+      "code checker",
+      "code linter",
+      "code standards",
+      "code style",
+      "enforce",
+      "eslint",
+      "eslintconfig",
+      "hint",
+      "jscs",
+      "jshint",
+      "lint",
+      "policy",
+      "quality",
+      "simple",
+      "standard",
+      "standard style",
+      "style",
+      "style checker",
+      "style linter",
+      "verify"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "peerDependencies": {
+      "eslint": ">=5.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:SmartBro/styleguide-js.git"
+    },
+    "devDependencies": {
+        "eslint": "^5.3.0",
+        "eslint-config-google": "^0.9.1"
+    }
 }
